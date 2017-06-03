@@ -15,7 +15,7 @@ We've written a short manual explaining how you can adapt it for your own needs.
 
 ***
 
-#### Who is Open Derby for?
+#### Who is MozUI for?
 
 The MozUI concept is targeted at any developers group, from coding clubs to academic labs, and for **Learners** also who want to:
 
@@ -28,11 +28,11 @@ We expect it'll help you a lot share your experience [here](https://facebook.com
 
 ***
 
-#### How can I use Open Derby?
+#### How can I use MozUI?
 
 ***
 
-#### How can I contribute to Open Derby?
+#### How can I contribute to MozUI?
 
 
 To learn more about contributing, check out our [Issues tracker](https://github.com/MozillaKNITOpenSource/MozUI/issues) and see [our contributor code of conduct.](/Contribution_Guidelines.md).
