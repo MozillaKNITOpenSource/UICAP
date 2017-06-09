@@ -42,6 +42,7 @@ To learn more about contributing, check out our [Issues tracker](https://github.
 #### Communication Links
 Dear Contributors you all can join our community by going through below links:
 [Gitter](https://gitter.im/MozUI-Future-of-UI-and-Ux/Lobby)
-
 ***
+###Bhavana
+###Harshit
 ###Sandeep
