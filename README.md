@@ -45,16 +45,16 @@ Dear Contributors you all can join our community by going through below links:
 ***
 #### Contributors Name
 Our top contrbitors
-[Adarsh Learner](https://learneradarsh.github.io)
-[Atul Gupta]
-[Rajat Khemka]
-[Shivam]
-[Priyanshi]
-[Bhavana]
-[Khusboo]
-[Aseem]
-[Chirag]
-[Harshit]
-[Sandeep]
+* [Adarsh Learner](https://learneradarsh.github.io)
+* Atul Gupta
+* Rajat Khemka
+* Shivam Sharma
+* Priyanshi
+* Bhavana
+* Khusboo
+* Aseem
+* Chirag
+* Harshit
+* Sandeep
 ***
 
