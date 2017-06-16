@@ -1,0 +1,25 @@
+{
+  "name": "mozui",
+  "homepage": "https://github.com/MozillaKNITOpenSource/MozUI",
+  "description": "ui framework",
+  "main": "index.html",
+  "keywords": [
+    "mozui"
+  ],
+  "authors": [
+    "mozilla_knit_team"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^3.2.1"
+  }
+}
