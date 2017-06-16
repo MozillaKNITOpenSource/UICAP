@@ -56,5 +56,6 @@ Our top contrbitors
 * Chirag
 * Harshit
 * Sandeep
+* Avinash
 ***
 
