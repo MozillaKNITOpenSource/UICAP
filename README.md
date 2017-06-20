@@ -1,5 +1,5 @@
 # MozUI:Future of UI and Ux
-![alt text](/images/ "")
+![alt text](/images/MaozUI.png)
 
 ***
 
@@ -46,16 +46,16 @@ Dear Contributors you all can join our community by going through below links:
 #### Contributors Name
 Our top contrbitors
 * [Adarsh Learner](https://learneradarsh.github.io)
-* Atul Gupta
-* Rajat Khemka
-* Shivam Sharma
-* Priyanshi
-* Bhavana
-* Khusboo
-* Aseem
-* Chirag
-* Harshit
-* Sandeep
-* Avinash
+* [Atul Gupta](https://github.com/atul-ag)
+* [Rajat Khemka](https://github.com/rajatkhemka)
+* [Shivam Sharma](https://github.com/shvm-7397)
+* [Priyanshi](https://github.com/pppriya)
+* [Bhavana](https://github.com/BH12ri)
+* [Khusboo](https://github.com/khushboo998)
+* [Aseem](https://github.com/as3eem)
+* [Chirag](https://github.com/chiraggoyal0714)
+* [Harshit](https://github.com/hagrawal97-github)
+* [Sandeep](https://github.com/sandynigs)
+* [Avinash](https://github.com/Adien7368)
 ***
 
