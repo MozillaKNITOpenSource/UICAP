@@ -52,10 +52,10 @@ Our top contrbitors
 * [Priyanshi](https://github.com/pppriya)
 * [Bhavana](https://github.com/BH12ri)
 * [Khusboo](https://github.com/khushboo998)
-* [Aseem](https://github.com/as3eem)
+* [Aseem Srivastava](https://github.com/as3eem)
 * [Chirag](https://github.com/chiraggoyal0714)
 * [Harshit](https://github.com/hagrawal97-github)
 * [Sandeep](https://github.com/sandynigs)
-* [Avinash](https://github.com/Adien7368)
+* [Avinash Verma](https://github.com/Adien7368)
 ***
 
