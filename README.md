@@ -50,7 +50,7 @@ Our top contrbitors
 * [Rajat Khemka](https://github.com/rajatkhemka)
 * [Shivam Sharma](https://github.com/shvm-7397)
 * [Priyanshi](https://github.com/pppriya)
-* [Bhavana](https://github.com/BH12ri)
+* [Bhavana Singh](https://github.com/BH12ri)
 * [Khusboo](https://github.com/khushboo998)
 * [Aseem](https://github.com/as3eem)
 * [Chirag](https://github.com/chiraggoyal0714)
