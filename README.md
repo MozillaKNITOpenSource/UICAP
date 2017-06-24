@@ -44,7 +44,7 @@ Dear Contributors you all can join our community by going through below links:
 [Gitter](https://gitter.im/MozUI-Future-of-UI-and-Ux/Lobby)
 ***
 #### Contributors Name
-Our top contrbitors
+Our top contributors
 * [Adarsh Learner](https://learneradarsh.github.io)
 * [Atul Gupta](https://github.com/atul-ag)
 * [Rajat Khemka](https://github.com/rajatkhemka)
