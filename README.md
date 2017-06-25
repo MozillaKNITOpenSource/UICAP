@@ -35,6 +35,18 @@ We expect it'll help you a lot share your experience [here](https://facebook.com
 
 ***
 
+#### Why MozUI?
+
+MozUI is compiling all the amazing components of every UI framework and developing also our own components for making a browser independent pages.
+
+***
+
+###  Give your Ideas for MozUI
+
+To contribute in MozUI by giving your ideas please go through [here](https://github.com/MozillaKNITOpenSource/MozUI/issues/2)
+
+***
+
 #### How can I contribute to MozUI?
 
 
