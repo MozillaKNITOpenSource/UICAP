@@ -57,5 +57,6 @@ Our top contributors
 * [Harshit](https://github.com/hagrawal97-github)
 * [Sandeep](https://github.com/sandynigs)
 * [Avinash Verma](https://github.com/Adien7368)
+* [Manish Maurya](https://github.com/mkrat123)
 ***
 
