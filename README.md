@@ -1,6 +1,7 @@
-# MozUI:Future of UI and Ux
+# MozUI:Future of UX/UI
 [![Build Status](https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master)]()
 [![License: MPL-2.0](https://img.shields.io/crates/l/clippy.svg)](#License)
+[![Coverage Status](https://coveralls.io/repos/github/aws/aws-sdk-js/badge.svg?branch=master)]()
 
 ![alt text](/images/MaozUI.png)
 
