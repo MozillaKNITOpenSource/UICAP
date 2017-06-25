@@ -1,0 +1,2 @@
+https://google.github.io/styleguide/htmlcssguide.html
+https://validator.w3.org/nu/

@@ -1,0 +1,27 @@
+{
+  "name": "mozui",
+  "version": "1.0.0",
+  "description": "ui framework",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MozillaKNITOpenSource/MozUI.git"
+  },
+  "keywords": [
+    "mozui"
+  ],
+  "author": "mozilla@knit",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/MozillaKNITOpenSource/MozUI/issues"
+  },
+  "homepage": "https://github.com/MozillaKNITOpenSource/MozUI#readme"
+}

@@ -9,7 +9,7 @@
   "authors": [
     "mozilla_knit_team"
   ],
-  "license": "MIT",
+  "license": "MPL 2.0",
   "private": true,
   "ignore": [
     "**/.*",
