@@ -67,7 +67,7 @@ Our top contributors
 * [Shivam Sharma](https://github.com/shvm-7397)
 * [Priyanshi](https://github.com/pppriya)
 * [Bhavana Singh](https://github.com/BH12ri)
-* [Khusboo](https://github.com/khushboo998)
+* [Khusboo Bindal](https://github.com/khushboo998)
 * [Aseem Srivastava](https://github.com/as3eem)
 * [Chirag](https://github.com/chiraggoyal0714)
 * [Harshit Agrawal](https://github.com/hagrawal97-github)
