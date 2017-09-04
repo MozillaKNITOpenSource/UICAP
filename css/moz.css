@@ -3,7 +3,7 @@
  * Copyright 2017-2018 Mozilla@KNIT.
  * Licensed under MIT (https://github.com/MozillaKNITOpenSource/MozUI)
  */
- html 
+html 
  {
   		 font-family: serif;
         -webkit-text-size-adjust: 100%;
@@ -22,24 +22,6 @@ aside
 }
 body {
   margin: 0;
-}
-button,
-{
-  margin: 0;
-  font: inherit;
-  color: inherit;
-}
-button
-{
-  text-transform: none;
-}
-button[disabled]
-{
-	cursor: default;
-}
-button::-moz-focus-inner{
-  padding: 0;
-  border: 0;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -63,12 +45,6 @@ body {
   line-height: 1.42857143;
   /** color: ; **/
   background-color: #fff;
-}
-button
-{
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
 }
 @media (min-width: 768px) {
   .container-box {
