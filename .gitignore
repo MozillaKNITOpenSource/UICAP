@@ -1,16 +1,5 @@
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swo
-*.swp
-*.vi
-*.zip
-*~
-
-# Folders to ignore
-bower_components
+.git
+.sass-cache
 node_modules
+temp
+npm-debug.log

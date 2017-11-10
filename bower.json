@@ -1,25 +1,25 @@
 {
   "name": "mozui",
+  "version": "1.0.0",
   "homepage": "https://github.com/MozillaKNITOpenSource/MozUI",
-  "description": "ui framework",
-  "main": "index.html",
-  "keywords": [
-    "mozui"
-  ],
   "authors": [
-    "mozilla_knit_team"
+    "Mozilla Campus Club KNIT SULTANPUR"
   ],
-  "license": "MPL 2.0",
-  "private": true,
+  "description": "Semantic HTML5 & nice CSS3",
+  "main": "mozui.min.css",
+  "keywords": [
+    "css",
+    "css3",
+    "semantic",
+    "html5",
+    "framework",
+    "library"
+  ],
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "jquery": "^3.2.1"
-  }
+    "web",
+    "package.json"
+  ]
 }
