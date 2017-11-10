@@ -5,13 +5,13 @@
 // For the toggle buttons
 :checked + .toggle,
 :checked + .toggle:hover {
-  box-shadow: $picnic-button-click;
+  box-shadow: $mozui-button-click;
 }
 
 // Hide the checkbox/radiobutton
 // Handle with care
 [type] + .toggle {
-  padding: $picnic-button-padding;
+  padding: $mozui-button-padding;
   margin-right: 0;
 
   &:after,

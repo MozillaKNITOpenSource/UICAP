@@ -1,19 +1,19 @@
 // Checkbox
 
 // Variables
-$picnic-checkbox-character: '\2714' !default;
-$picnic-checkbox-radius: $picnic-radius !default;
+$mozui-checkbox-character: '\2714' !default;
+$mozui-checkbox-radius: $mozui-radius !default;
 
 
 %checkbox {
   @extend %radio;
   
   + .checkable:before {
-    border-radius: $picnic-checkbox-radius;
+    border-radius: $mozui-checkbox-radius;
     }
 
   + .checkable:after {
-    content: $picnic-checkbox-character;
+    content: $mozui-checkbox-character;
     background: none;
     transform: scale(2) translateY(-25%);
     visibility: hidden;
@@ -21,10 +21,10 @@ $picnic-checkbox-radius: $picnic-radius !default;
     }
 
   &:checked + .checkable:after {
-    color: $picnic-black;
+    color: $mozui-black;
     background: none;
     transform: translateY(-50%);
-    transition: $picnic-transition;
+    transition: $mozui-transition;
     visibility: visible;
     opacity: 1;
     }

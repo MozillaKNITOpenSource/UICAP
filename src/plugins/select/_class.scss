@@ -1,30 +1,30 @@
 // Variables
-$picnic-select-height: 2.1em !default;
-$picnic-select-margin: $picnic-separation / 2 !default;
-$picnic-select-padding: $picnic-separation / 2 $picnic-separation * .75 !default;
+$mozui-select-height: 2.1em !default;
+$mozui-select-margin: $mozui-separation / 2 !default;
+$mozui-select-padding: $mozui-separation / 2 $mozui-separation * .75 !default;
 
 // This comes from arrow.svg. Converted with:
 // http://dopiaza.org/tools/datauri/index.php
-$picnic-select-dropimage: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyIiBoZWlnaHQ9IjMiPjxwYXRoIGQ9Im0gMCwxIDEsMiAxLC0yIHoiLz48L3N2Zz4=' !default;
+$mozui-select-dropimage: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyIiBoZWlnaHQ9IjMiPjxwYXRoIGQ9Im0gMCwxIDEsMiAxLC0yIHoiLz48L3N2Zz4=' !default;
 
 
 // Code
 %select {
 
   // Compatible with old androids
-  background: #fff url(#{ $picnic-select-dropimage }) no-repeat scroll 95% center/ 10px 15px;
+  background: #fff url(#{ $mozui-select-dropimage }) no-repeat scroll 95% center/ 10px 15px;
 
   // Compatible with modern browsers
   background-position: calc(100% - 15px) center;
 
   
-  border: $picnic-border;
-  border-radius: $picnic-radius;
+  border: $mozui-border;
+  border-radius: $mozui-radius;
   cursor: pointer;
   width: 100%;
-  height: $picnic-select-height;
+  height: $mozui-select-height;
   box-sizing: border-box;
-  padding: $picnic-select-padding;
+  padding: $mozui-select-padding;
   transition: all .3s;
   
 
@@ -45,17 +45,17 @@ $picnic-select-dropimage: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d
 
   &:focus,
   &:active {
-    border: 1px solid $picnic-primary;
+    border: 1px solid $mozui-primary;
     transition: outline 0s;
     }
 
   &:-moz-focusring {
     color: transparent;
-    text-shadow: 0 0 0 $picnic-black;
+    text-shadow: 0 0 0 $mozui-black;
     }
 
   option {
     font-size: inherit;
-    padding: $picnic-separation / 2 $picnic-separation * .75;
+    padding: $mozui-separation / 2 $mozui-separation * .75;
     }
   }

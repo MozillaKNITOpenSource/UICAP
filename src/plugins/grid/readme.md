@@ -1,10 +1,10 @@
 ## Grids
 
-> Note: the old `.row` and `.grid` have been replaced by the new `.flex`. You can still [see the old documentation in github](https://github.com/picnicss/picnic/blob/dcf3410125a861b3bf58ebfd06f73916ef9ae3db/src/plugins/grid/readme.md).
+> Note: the old `.row` and `.grid` have been replaced by the new `.flex`. You can still [see the old documentation in github](https://github.com/mozuiss/mozui/blob/dcf3410125a861b3bf58ebfd06f73916ef9ae3db/src/plugins/grid/readme.md).
 
 > Note 2: the children `<span>` are only for display purposes; you can put anything you want instead of them
 
-A flexbox grid implementation with breakpoints. Choose when to change your layout depending on your content instead of the device you want to show as recommended by [Google's RWD](https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/how-to-choose-breakpoints), by [Smashing Magazine's Logical Breakpoints](https://www.smashingmagazine.com/2013/03/logical-breakpoints-responsive-design/) and Picnic CSS.
+A flexbox grid implementation with breakpoints. Choose when to change your layout depending on your content instead of the device you want to show as recommended by [Google's RWD](https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/how-to-choose-breakpoints), by [Smashing Magazine's Logical Breakpoints](https://www.smashingmagazine.com/2013/03/logical-breakpoints-responsive-design/) and mozui CSS.
 
 
 

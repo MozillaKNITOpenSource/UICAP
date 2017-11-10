@@ -1,8 +1,8 @@
 
 // Variables
-$picnic-input-height: 2.1em !default;
-$picnic-input-padding: $picnic-separation / 2 $picnic-separation !default;
-$picnic-input-background: #fff !default;
+$mozui-input-height: 2.1em !default;
+$mozui-input-padding: $mozui-separation / 2 $mozui-separation !default;
+$mozui-input-background: #fff !default;
 
 
 
@@ -10,16 +10,16 @@ $picnic-input-background: #fff !default;
 %input {
   line-height: 1.5;
   margin: 0;
-  height: $picnic-input-height;
-  padding: $picnic-input-padding;
-  border: $picnic-border;
-  background-color: $picnic-input-background;
-  border-radius: $picnic-radius;
-  transition: $picnic-transition;
+  height: $mozui-input-height;
+  padding: $mozui-input-padding;
+  border: $mozui-border;
+  background-color: $mozui-input-background;
+  border-radius: $mozui-radius;
+  transition: $mozui-transition;
   width: 100%;
 
   &:focus {
-    border: 1px solid $picnic-primary;
+    border: 1px solid $mozui-primary;
     outline: 0;
   }
 }

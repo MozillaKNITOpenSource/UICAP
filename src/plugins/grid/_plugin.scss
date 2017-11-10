@@ -1,15 +1,15 @@
 @import 'class';
 
-$picnic-grid-gutter: $picnic-separation !default;
-$picnic-grid-gutter-vertical: $picnic-grid-gutter !default;
-$picnic-grid-gutter-horizontal: $picnic-grid-gutter !default;
+$mozui-grid-gutter: $mozui-separation !default;
+$mozui-grid-gutter-vertical: $mozui-grid-gutter !default;
+$mozui-grid-gutter-horizontal: $mozui-grid-gutter !default;
 
-$picnic-grid-sizes: 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 !default;
-$picnic-grid-children: $picnic-grid-sizes !default;
-$picnic-grid-off: $picnic-grid-sizes !default;
+$mozui-grid-sizes: 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 !default;
+$mozui-grid-children: $mozui-grid-sizes !default;
+$mozui-grid-off: $mozui-grid-sizes !default;
 
-$picnic-grid-count: one two three four five six seven eight nine ten eleven twelve !default;
-$picnic-grid-count-sizes: (
+$mozui-grid-count: one two three four five six seven eight nine ten eleven twelve !default;
+$mozui-grid-count-sizes: (
   one: 100%,
   two: 50%,
   three: 33.33333%,
@@ -23,8 +23,8 @@ $picnic-grid-count-sizes: (
   eleven: 9.09091%,
   twelve: 8.33333%
 );
-$picnic-grid-part: full half third two-third fourth three-fourth fifth two-fifth three-fifth four-fifth sixth !default;
-$picnic-grid-part-sizes: (
+$mozui-grid-part: full half third two-third fourth three-fourth fifth two-fifth three-fifth four-fifth sixth !default;
+$mozui-grid-part-sizes: (
   full: 100%,
   half: 50%,
   third: 33.33333%,
@@ -37,8 +37,8 @@ $picnic-grid-part-sizes: (
   four-fifth: 80%,
   sixth: 16.66666%
 );
-$picnic-grid-offpart: none half third two-third fourth three-fourth fifth two-fifth three-fifth four-fifth sixth !default;
-$picnic-grid-offpart-sizes: (
+$mozui-grid-offpart: none half third two-third fourth three-fourth fifth two-fifth three-fifth four-fifth sixth !default;
+$mozui-grid-offpart-sizes: (
   half: 50%,
   third: 33.33333%,
   two-third: 66.66666%,
@@ -60,8 +60,8 @@ $picnic-grid-offpart-sizes: (
 .flex {
   display: -ms-flexbox;
   display: flex;
-  margin-left: -$picnic-grid-gutter-horizontal;
-  width: calc(100% + #{$picnic-grid-gutter-horizontal});
+  margin-left: -$mozui-grid-gutter-horizontal;
+  width: calc(100% + #{$mozui-grid-gutter-horizontal});
   flex-wrap: wrap;
   transition: all .3s ease;
 }
@@ -69,8 +69,8 @@ $picnic-grid-offpart-sizes: (
 .flex > * {
   box-sizing: border-box;
   flex: 1 1 auto; /* Default for IE10 bug */
-  padding-left: $picnic-grid-gutter-horizontal;
-  padding-bottom: $picnic-grid-gutter-vertical;
+  padding-left: $mozui-grid-gutter-horizontal;
+  padding-bottom: $mozui-grid-gutter-vertical;
 }
 
 .flex {
@@ -100,17 +100,17 @@ $picnic-grid-offpart-sizes: (
   justify-content: center;
 }
 
-@each $count in $picnic-grid-count {
+@each $count in $mozui-grid-count {
   .#{$count} > * {
-    width: map-get($picnic-grid-count-sizes, $count);
+    width: map-get($mozui-grid-count-sizes, $count);
   }
 }
 
-@each $i in $picnic-grid-sizes {
+@each $i in $mozui-grid-sizes {
   @media all and (min-width: unquote($i + 'px')) {
-    @each $count in $picnic-grid-count {
+    @each $count in $mozui-grid-count {
       .#{$count}-#{$i} > * {
-        width: map-get($picnic-grid-count-sizes, $count);
+        width: map-get($mozui-grid-count-sizes, $count);
       }
     }
   }
@@ -118,25 +118,25 @@ $picnic-grid-offpart-sizes: (
 
 
 // Children sizing
-@each $part in $picnic-grid-part {
+@each $part in $mozui-grid-part {
   .#{$part} {
-    width: map-get($picnic-grid-part-sizes, $part);
+    width: map-get($mozui-grid-part-sizes, $part);
   }
 }
 .none { display: none; }
 
 
-@each $i in $picnic-grid-sizes {
+@each $i in $mozui-grid-sizes {
   @media all and (min-width: unquote($i + 'px')) {
-    @each $part in $picnic-grid-part {
+    @each $part in $mozui-grid-part {
       .#{$part}-#{$i} {
-        width: map-get($picnic-grid-part-sizes, $part);
+        width: map-get($mozui-grid-part-sizes, $part);
         display: block;
       }
     }
   }
 }
-@each $i in $picnic-grid-children {
+@each $i in $mozui-grid-children {
   @media all and (min-width: unquote($i + 'px')) {
     .none-#{$i} { display: none; }
   }
@@ -144,18 +144,18 @@ $picnic-grid-offpart-sizes: (
 
 
 
-@each $part in $picnic-grid-offpart {
+@each $part in $mozui-grid-offpart {
   .off-#{$part} {
-    margin-left: map-get($picnic-grid-offpart-sizes, $part);
+    margin-left: map-get($mozui-grid-offpart-sizes, $part);
   }
 }
 
 
-@each $i in $picnic-grid-sizes {
+@each $i in $mozui-grid-sizes {
   @media all and (min-width: unquote($i + 'px')) {
-    @each $part in $picnic-grid-offpart {
+    @each $part in $mozui-grid-offpart {
       .off-#{$part}-#{$i} {
-        margin-left: map-get($picnic-grid-offpart-sizes, $part);
+        margin-left: map-get($mozui-grid-offpart-sizes, $part);
       }
     }
   }

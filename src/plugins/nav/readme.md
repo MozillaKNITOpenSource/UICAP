@@ -16,7 +16,7 @@ A responsive, pure css navigation menu:
 <nav class="demo">
   <a href="#" class="brand">
     <img class="logo" src="/web/img/basket.png" />
-    <span>Picnic CSS</span>
+    <span>mozui CSS</span>
   </a>
 
   <!-- responsive-->
@@ -58,7 +58,7 @@ nav.imponent {
 <nav class="demo imponent">
   <a href="#" class="brand">
     <img class="logo" src="/web/img/basket.png" />
-    <span>Picnic CSS</span>
+    <span>mozui CSS</span>
   </a>
 </nav>
 ```
@@ -70,7 +70,7 @@ Just get anything you want inside the nav, most things should work.
 
 ```html
 <nav class="demo">
-  <a href="#" class="brand">Picnic CSS</a>
+  <a href="#" class="brand">mozui CSS</a>
 
   <!-- responsive-->
   <input id="bmenug" type="checkbox" class="show">
@@ -84,7 +84,7 @@ Just get anything you want inside the nav, most things should work.
 
 ```html
 <nav class="demo">
-  <a href="#" class="brand">Picnic CSS</a>
+  <a href="#" class="brand">mozui CSS</a>
 
   <!-- responsive-->
   <input id="cmenug" type="checkbox" class="show">
@@ -113,5 +113,5 @@ nav {
 
 ### Open nav menu from left
 
-change sass variable ```$picnic-nav-open-left: false !default;``` to
-``` picnic-nav-open-left: true !default; ``` inside src/plugins/nav/_class.scss file.
+change sass variable ```$mozui-nav-open-left: false !default;``` to
+``` mozui-nav-open-left: true !default; ``` inside src/plugins/nav/_class.scss file.

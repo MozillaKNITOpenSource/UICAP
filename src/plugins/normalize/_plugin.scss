@@ -1,5 +1,5 @@
-$picnic-normalize-display: true !default;
-$picnic-normalize-ie: true !default;
+$mozui-normalize-display: true !default;
+$mozui-normalize-ie: true !default;
 
 
 /**
@@ -31,7 +31,7 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
-@if $picnic-normalize-display {
+@if $mozui-normalize-display {
   article,
   aside,
   details,
@@ -53,7 +53,7 @@ body {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
-@if $picnic-normalize-display {
+@if $mozui-normalize-display {
   audio,
   canvas,
   progress,
@@ -78,7 +78,7 @@ audio:not([controls]) {
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   [hidden],
   template {
     display: none;
@@ -93,7 +93,7 @@ audio:not([controls]) {
  * Remove the gray background color from active links in IE 10.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   a {
     background: transparent;
   }
@@ -115,7 +115,7 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   abbr[title] {
     border-bottom: 1px dotted;
   }
@@ -152,7 +152,7 @@ h1 {
  * Address styling not present in IE 8/9.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   mark {
     background: #ff0;
     color: #000;
@@ -194,7 +194,7 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   img {
     border: 0;
   }
@@ -204,7 +204,7 @@ sub {
  * Correct overflow not hidden in IE 9/10/11.
  */
 
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   svg:not(:root) {
     overflow: hidden;
   }
@@ -216,7 +216,7 @@ sub {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   figure {
     margin: 1em 40px;
   }
@@ -280,7 +280,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   button {
     overflow: visible;
   }
@@ -349,7 +349,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   input[type="checkbox"],
   input[type="radio"] {
     box-sizing: border-box; /* 1 */
@@ -391,7 +391,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   legend {
     border: 0; /* 1 */
     padding: 0; /* 2 */
@@ -401,7 +401,7 @@ fieldset {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-@if $picnic-normalize-ie {
+@if $mozui-normalize-ie {
   textarea {
     overflow: auto;
   }

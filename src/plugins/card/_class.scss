@@ -2,9 +2,9 @@
 // This represents a self-contained, replicable entity
 
 // Variables
-$picnic-card-shadow: 0 !default;
-$picnic-card-border: $picnic-border !default;
-$picnic-card-radius: $picnic-radius !default;
+$mozui-card-shadow: 0 !default;
+$mozui-card-border: $mozui-border !default;
+$mozui-card-radius: $mozui-radius !default;
 
 
 
@@ -14,13 +14,13 @@ $picnic-card-radius: $picnic-radius !default;
 %card {
 
   position: relative;
-  box-shadow: $picnic-card-shadow;
-  border-radius: $picnic-card-radius;
-  border: $picnic-card-border;
+  box-shadow: $mozui-card-shadow;
+  border-radius: $mozui-card-radius;
+  border: $mozui-card-border;
   overflow: hidden;
   text-align: left;
-  background: $picnic-white;
-  margin-bottom: $picnic-separation;
+  background: $mozui-white;
+  margin-bottom: $mozui-separation;
   padding: 0;
   transition: all .3s ease;
 
@@ -87,7 +87,7 @@ $picnic-card-radius: $picnic-radius !default;
     }
 
   p {
-    margin: $picnic-separation / 2 0;
+    margin: $mozui-separation / 2 0;
 
     &:first-child {
       margin-top: 0;
@@ -113,7 +113,7 @@ $picnic-card-radius: $picnic-radius !default;
     width: auto;
 
     &:hover {
-      color: $picnic-error;
+      color: $mozui-error;
       }
     }
 
@@ -126,7 +126,7 @@ $picnic-card-radius: $picnic-radius !default;
     }
 
   .dangerous {
-    background: $picnic-error;
+    background: $mozui-error;
     float: right;
     }
   }

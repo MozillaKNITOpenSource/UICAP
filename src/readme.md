@@ -1,3 +1,3 @@
-# Picnic CSS
+# mozui CSS
 
-Picnic CSS is a lightweight and beautiful CSS library
+mozui CSS is a lightweight and beautiful CSS library

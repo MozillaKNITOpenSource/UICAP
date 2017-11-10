@@ -1,6 +1,6 @@
 // Variables for the tooltips
-$picnic-tooltip-background: $picnic-black !default;
-$picnic-tooltip-size: .8em !default;
+$mozui-tooltip-background: $mozui-black !default;
+$mozui-tooltip-size: .8em !default;
 
 
 // Only display the tooltip for elements with <element data-tooltip="blabla">
@@ -35,8 +35,8 @@ $picnic-tooltip-size: .8em !default;
     // Style
     @extend .label;
     margin-left: 0;
-    font-size: $picnic-tooltip-size;
-    background: $picnic-tooltip-background;
+    font-size: $mozui-tooltip-size;
+    background: $mozui-tooltip-background;
 
     // Content
     content: attr(data-tooltip);
@@ -54,7 +54,7 @@ $picnic-tooltip-size: .8em !default;
     border-style: solid;
 
     // Bottom one (default)
-    border-color: transparent transparent $picnic-tooltip-background;
+    border-color: transparent transparent $mozui-tooltip-background;
     margin-top: 0;
     left: 10px;
     }
@@ -70,7 +70,7 @@ $picnic-tooltip-size: .8em !default;
 
   &:hover:after,
   &:focus:after {
-    padding: $picnic-separation * .75 $picnic-separation * 1.5;
+    padding: $mozui-separation * .75 $mozui-separation * 1.5;
     }
   }
 
@@ -87,7 +87,7 @@ $picnic-tooltip-size: .8em !default;
     }
 
   &:before {
-    border-color: $picnic-tooltip-background transparent transparent;
+    border-color: $mozui-tooltip-background transparent transparent;
     margin-bottom: 0;
     left: 10px;
     }
@@ -104,7 +104,7 @@ $picnic-tooltip-size: .8em !default;
     }
 
   &:before {
-    border-color: transparent $picnic-tooltip-background transparent transparent;
+    border-color: transparent $mozui-tooltip-background transparent transparent;
     margin-left: -6px;
     left: 100%;
     top: 7px;
@@ -123,7 +123,7 @@ $picnic-tooltip-size: .8em !default;
     }
 
   &:before {
-    border-color: transparent transparent transparent $picnic-tooltip-background;
+    border-color: transparent transparent transparent $mozui-tooltip-background;
     margin-right: -6px;
     right: 100%;
     top: 7px;

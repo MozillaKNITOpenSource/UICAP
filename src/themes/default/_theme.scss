@@ -1,30 +1,30 @@
-// Top level variables for Picnic CSS
+// Top level variables for mozui CSS
 // Note: some others are available under each specific plugin
 
 @import 'colors';
 
 
 // Colors (from /themes/default/colors)
-$picnic-white: #fff !default;
-$picnic-black: #111 !default;
-$picnic-primary: $blue !default;
-$picnic-success: $green !default;
-$picnic-warning: $orange !default;
-$picnic-error: $red !default;
-$picnic-dull: $gray !default;
-$picnic-color-variation: 10% !default;
-$picnic-transparency: .2 !default;
+$mozui-white: #fff !default;
+$mozui-black: #111 !default;
+$mozui-primary: $blue !default;
+$mozui-success: $green !default;
+$mozui-warning: $orange !default;
+$mozui-error: $red !default;
+$mozui-dull: $gray !default;
+$mozui-color-variation: 10% !default;
+$mozui-transparency: .2 !default;
 
 
 // Spaces
-$picnic-separation: .6em !default;
-$picnic-breakpoint: 60em !default;
+$mozui-separation: .6em !default;
+$mozui-breakpoint: 60em !default;
 
 
 // Shapes
-$picnic-radius: .2em !default;
-$picnic-border: 1px solid #ccc !default;
-$picnic-shadow: 0 0 .2em rgba($picnic-black, $picnic-transparency) !default;
+$mozui-radius: .2em !default;
+$mozui-border: 1px solid #ccc !default;
+$mozui-shadow: 0 0 .2em rgba($mozui-black, $mozui-transparency) !default;
 
 // Transitions
-$picnic-transition: all .3s;
+$mozui-transition: all .3s;

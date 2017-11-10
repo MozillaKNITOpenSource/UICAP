@@ -29,7 +29,7 @@ There are many ways of using MozUI in your projects. Here a brief introduction o
 We're working on it.
 
 
-### Bower - to personalize Picnic
+### Bower - to personalize mozui
 
 We're working on it.
 

@@ -5,12 +5,12 @@ nav {
   @extend %nav;
 }
 
-@if $picnic-nav-responsive {
+@if $mozui-nav-responsive {
   nav .burger {
     display: none;
   }
 
-  @media all and (max-width: $picnic-breakpoint) {
+  @media all and (max-width: $mozui-breakpoint) {
 
     nav {
       .burger {
@@ -28,7 +28,7 @@ nav {
         overflow: hidden;
         top: 0;
 
-        @if $picnic-nav-open-left{
+        @if $mozui-nav-open-left{
           left: 0;
         }
         @else{
@@ -37,7 +37,7 @@ nav {
         
         bottom: -1000em;
         margin: 0;
-        background: $picnic-white;
+        background: $mozui-white;
         transition: all .3s ease;
         transform: none;
       }
@@ -63,13 +63,13 @@ nav {
 
       .burger ~ .menu > * {
         display: block;
-        margin: $picnic-separation / 2;
+        margin: $mozui-separation / 2;
         text-align: left;
-        max-width: calc(100% - #{$picnic-separation});
+        max-width: calc(100% - #{$mozui-separation});
       }
 
       .burger ~ .menu > a {
-        padding: $picnic-separation / 2 $picnic-separation * 1.5;
+        padding: $mozui-separation / 2 $mozui-separation * 1.5;
       }
     }
   }

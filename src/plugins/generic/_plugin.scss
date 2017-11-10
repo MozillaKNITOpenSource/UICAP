@@ -10,10 +10,10 @@ body {
 }
 
 body {
-  color: $picnic-black;
+  color: $mozui-black;
   font-size: 1.1em;
   line-height: 1.5;
-  background: $picnic-white;
+  background: $mozui-white;
 }
 
 main {
@@ -27,34 +27,34 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: $picnic-separation 0;
+  padding: $mozui-separation 0;
 }
 
 li {
-  margin: 0 0 $picnic-separation / 2;
+  margin: 0 0 $mozui-separation / 2;
 }
 
 a {
-  color: $picnic-primary;
+  color: $mozui-primary;
   text-decoration: none;
   box-shadow: none;
-  transition: $picnic-transition;
+  transition: $mozui-transition;
 }
 
 
 // The <pre> doesn't have a nice style from Normalize.css
 
 code {
-  padding: $picnic-separation / 2 $picnic-separation;
+  padding: $mozui-separation / 2 $mozui-separation;
   font-size: .8em;
   background: #f5f5f5;
 }
 
 pre {
   text-align: left;
-  padding: $picnic-separation / 2 $picnic-separation;
+  padding: $mozui-separation / 2 $mozui-separation;
   background: #f5f5f5;
-  border-radius: $picnic-radius;
+  border-radius: $mozui-radius;
 
   code {
     padding: 0;
@@ -64,7 +64,7 @@ pre {
 blockquote {
   padding: 0 0 0 1em;
   margin: 0 0 0 .1em;
-  box-shadow: inset 5px 0 rgba($picnic-black, .3);
+  box-shadow: inset 5px 0 rgba($mozui-black, .3);
 }
 
 label {

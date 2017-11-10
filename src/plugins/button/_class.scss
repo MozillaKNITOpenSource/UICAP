@@ -4,13 +4,13 @@
 
 
 // Variables
-$picnic-button-margin: $picnic-separation / 2 0 !default;
-$picnic-button-padding: $picnic-label-padding !default;
-$picnic-button-hover: inset 0 0 0 99em rgba($picnic-white, $picnic-transparency) !default;
-$picnic-button-click: inset 0 0 0 99em rgba($picnic-black, $picnic-transparency) !default;
-$picnic-button-pseudo-hover: inset 0 0 0 99em rgba($picnic-black, $picnic-transparency / 2) !default;
-$picnic-button-transition: $picnic-transition !default;
-$picnic-button-radius: $picnic-label-radius !default;
+$mozui-button-margin: $mozui-separation / 2 0 !default;
+$mozui-button-padding: $mozui-label-padding !default;
+$mozui-button-hover: inset 0 0 0 99em rgba($mozui-white, $mozui-transparency) !default;
+$mozui-button-click: inset 0 0 0 99em rgba($mozui-black, $mozui-transparency) !default;
+$mozui-button-pseudo-hover: inset 0 0 0 99em rgba($mozui-black, $mozui-transparency / 2) !default;
+$mozui-button-transition: $mozui-transition !default;
+$mozui-button-radius: $mozui-label-radius !default;
 
 
 
@@ -18,10 +18,10 @@ $picnic-button-radius: $picnic-label-radius !default;
 %button {
   @extend %label;
 
-  margin: $picnic-button-margin;
+  margin: $mozui-button-margin;
   cursor: pointer;
-  transition: $picnic-button-transition;
-  border-radius: $picnic-button-radius;
+  transition: $mozui-button-transition;
+  border-radius: $mozui-button-radius;
 
   // Avoid the input { height: 2.2 }
   height: auto;
@@ -32,19 +32,19 @@ $picnic-button-radius: $picnic-label-radius !default;
   // Methods
   &:hover,
   &:focus {
-    box-shadow: $picnic-button-hover;
+    box-shadow: $mozui-button-hover;
     border: 0;
     }
 
   &.pseudo:hover,
   &.pseudo:focus {
-    box-shadow: $picnic-button-pseudo-hover;
+    box-shadow: $mozui-button-pseudo-hover;
     }
 
   &.active,
   &:active,
   &.pseudo:active {
-    box-shadow: $picnic-button-click;
+    box-shadow: $mozui-button-click;
     }
 
   &[disabled] {
@@ -58,7 +58,7 @@ $picnic-button-radius: $picnic-label-radius !default;
 // // Note: If you try to do this there's a selector explossion:
 
 // &%hover {
-//   box-shadow: $picnic-button-hover;
+//   box-shadow: $mozui-button-hover;
 //   }
 
 // &:hover {

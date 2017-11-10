@@ -1,8 +1,8 @@
 // Radio button
 
 // Variables
-$picnic-radio-size: 1em !default;
-$picnic-radio-border: 1px solid #aaa !default;
+$mozui-radio-size: 1em !default;
+$mozui-radio-border: 1px solid #aaa !default;
 
 // 
 %radio {
@@ -13,13 +13,13 @@ $picnic-radio-border: 1px solid #aaa !default;
   
   + .checkable:hover:before,
   &:focus + .checkable:before {
-    border: 1px solid $picnic-primary;
+    border: 1px solid $mozui-primary;
     }
   
   + .checkable {
     position: relative;
     cursor: pointer;
-    padding-left: $picnic-radio-size * 1.5;
+    padding-left: $mozui-radio-size * 1.5;
     margin-right: .6em;
         
     &:before,
@@ -30,20 +30,20 @@ $picnic-radio-border: 1px solid #aaa !default;
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      font-size: $picnic-radio-size;
-      line-height: $picnic-radio-size;
+      font-size: $mozui-radio-size;
+      line-height: $mozui-radio-size;
       color: transparent;
       font-family: sans;
       text-align: center;
       box-sizing: border-box;
-      width: $picnic-radio-size;
-      height: $picnic-radio-size;
+      width: $mozui-radio-size;
+      height: $mozui-radio-size;
       border-radius: 50%;
-      transition: $picnic-transition;
+      transition: $mozui-transition;
       }
 
     &:before {            
-      border: $picnic-radio-border;
+      border: $mozui-radio-border;
       }
     }
 

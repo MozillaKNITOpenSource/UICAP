@@ -15,18 +15,18 @@
   }
 
 // This is in this way to allow for individual stack items
-// Because if it was border-radius: $picnic-radius $picnic-radius 0 0;
+// Because if it was border-radius: $mozui-radius $mozui-radius 0 0;
 // then they would all behave as last-child
 .stack:first-child,
 .stack:first-child .toggle {
-  border-top-left-radius: $picnic-radius;
-  border-top-right-radius: $picnic-radius;
+  border-top-left-radius: $mozui-radius;
+  border-top-right-radius: $mozui-radius;
   }
 
 .stack:last-child,
 .stack:last-child .toggle {
-  border-bottom-left-radius: $picnic-radius;
-  border-bottom-right-radius: $picnic-radius;
+  border-bottom-left-radius: $mozui-radius;
+  border-bottom-right-radius: $mozui-radius;
   }
 
 // To avoid the double border of input and textarea
@@ -45,7 +45,7 @@ select {
     &:focus + input,
     &:focus + textarea,
     &:focus + select {
-      border-top-color: $picnic-primary;
+      border-top-color: $mozui-primary;
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "normalize",
   "name": "Normalize",
-  "description": "The foundation of Picnic CSS",
+  "description": "The foundation of mozui CSS",
   "install": "[included]",
   "partial": true
 }

@@ -1,29 +1,29 @@
 // Navigation bar
 
-$picnic-nav-height: 3em !default;
-$picnic-nav-shadow: $picnic-shadow !default;
-$picnic-nav-position: fixed !default;
-$picnic-nav-sides: .6em !default;
-$picnic-nav-responsive: true !default;
-$picnic-nav-open-left: false !default;
+$mozui-nav-height: 3em !default;
+$mozui-nav-shadow: $mozui-shadow !default;
+$mozui-nav-position: fixed !default;
+$mozui-nav-sides: .6em !default;
+$mozui-nav-responsive: true !default;
+$mozui-nav-open-left: false !default;
 
 // Vertical align based on
 // http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
 %nav {
 
   // Position it on the top, full width
-  position: $picnic-nav-position;
+  position: $mozui-nav-position;
   top: 0;
   left: 0;
   right: 0;
 
   // Total height
-  height: $picnic-nav-height;
-  padding: 0 $picnic-nav-sides;
+  height: $mozui-nav-height;
+  padding: 0 $mozui-nav-sides;
 
   // Make it look like a hovering bar
   background: #fff;
-  box-shadow: $picnic-nav-shadow;
+  box-shadow: $mozui-nav-shadow;
   z-index: 10000;
 
   // Everything happens slow-ish
@@ -47,10 +47,10 @@ $picnic-nav-open-left: false !default;
   .brand {
     font-weight: 700;
     float: left;
-    padding: 0 $picnic-nav-sides;
+    padding: 0 $mozui-nav-sides;
     max-width: 50%;
     white-space: nowrap;
-    color: $picnic-black;
+    color: $mozui-black;
 
     * {
       vertical-align: middle;
@@ -69,6 +69,6 @@ $picnic-nav-open-left: false !default;
   }
 
   .menu > * {
-    margin-right: $picnic-nav-sides;
+    margin-right: $mozui-nav-sides;
   }
 }
