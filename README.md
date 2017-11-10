@@ -65,7 +65,7 @@ After including the stylesheet as indicated in the `Getting started`:
 
   <button class="primary"> Subscribe! </button>
 </form>
-
+```
 
 
 
@@ -105,15 +105,14 @@ After including the stylesheet as indicated in the `Getting started`:
 
 You are encouraged to contribute to MozUI. To write a new plugin, just copy one of the existing ones (specially recommend "button") and modify the files. The code must be linted with scss-lint, except the `PropertySortOrder` which is ignored for a better code structure.
 
-***
+
 
 ###  Give your Ideas for MozUI
 
 To contribute in MozUI by giving your ideas please go through [here](https://github.com/MozillaKNITOpenSource/MozUI/issues/2)
 
-***
 
-## Authors
+# Authors
 * [Adarsh Learner](https://learneradarsh.github.io)
 * [Atul Gupta](https://github.com/atul-ag)
 * [Rajat Khemka](https://github.com/rajatkhemka)
