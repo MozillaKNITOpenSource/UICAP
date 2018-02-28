@@ -1,6 +1,6 @@
 # Contributing
 
-> Hey Open Sourcie, thanks for helping us to make MozUI more better ! 
+> Hey Open Sourcie, thanks for helping us to make UICAP more better ! 
 
 To get all developer view you can go through documentation.md
 
@@ -26,7 +26,7 @@ Other files in the root are:
 
 ## Where to start?
 
-I recommend reading `src/mozui.scss` first. It will give you a general sense of where to find other things. Also, reading the source code for `plugins/*` is a good start.
+I recommend reading `src/uicap.scss` first. It will give you a general sense of where to find other things. Also, reading the source code for `plugins/*` is a good start.
 
 
 ## Please lint and test
