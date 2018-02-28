@@ -1,27 +1,27 @@
-# MozUI:Future of UX/UI
+# UICAP:Future of UX/UI
 [![License: MPL-2.0](https://img.shields.io/crates/l/clippy.svg)](#License)
 [![Coverage Status](https://coveralls.io/repos/github/aws/aws-sdk-js/badge.svg?branch=master)]()
 
-![alt text](mozui.png)
+
 
 ***
 
 #### What is MozUI?
 
-**MozUI** solves problem of many users who have not better experience of web page surfing on Firefox and other browsers.
+**UICAP** solves problem of many users who have not better experience of web page surfing on Firefox and other browsers.
 Basically it's an **UI framework** which will help developers to make a webpage which is browser independent and provides best user experience to all users.It'll contain some other advance components which is not provided in other amazing UI frameworks like **Twitter Bootstrap**, **Flat UI**, and **Ionic**.
 There are many more but we can list all here.
 
 We've written a short manual explaining how you can adapt it for your own needs.
 
-* [How to use MozUI?](https://github.com/MozillaKNITOpenSource/MozUI/wiki)
+* [How to use UICAP?](https://github.com/MozillaKNITOpenSource/MozUI/wiki)
 
 ***
 
 
 ## Getting started
 
-There are many ways of using MozUI in your projects. Here a brief introduction of the recommended two methods:
+There are many ways of using UICAP in your projects. Here a brief introduction of the recommended two methods:
 
 
 ### CDN - just give me the file
@@ -29,7 +29,7 @@ There are many ways of using MozUI in your projects. Here a brief introduction o
 We're working on it.
 
 
-### Bower - to personalize mozui
+### Bower - to personalize UICAP
 
 We're working on it.
 
@@ -91,7 +91,7 @@ After including the stylesheet as indicated in the `Getting started`:
 
 
 
-## Alternatives and why I still created MozUI
+## Alternatives and why I still created UICAP
 
 [Milligram](https://milligram.github.io/): A minimalist CSS framework
 
@@ -103,13 +103,13 @@ After including the stylesheet as indicated in the `Getting started`:
 
 ## Contributing
 
-You are encouraged to contribute to MozUI. To write a new plugin, just copy one of the existing ones (specially recommend "button") and modify the files. The code must be linted with scss-lint, except the `PropertySortOrder` which is ignored for a better code structure.
+You are encouraged to contribute to UICAP. To write a new plugin, just copy one of the existing ones (specially recommend "button") and modify the files. The code must be linted with scss-lint, except the `PropertySortOrder` which is ignored for a better code structure.
 
 
 
-###  Give your Ideas for MozUI
+###  Give your Ideas for UICAP
 
-To contribute in MozUI by giving your ideas please go through [here](https://github.com/MozillaKNITOpenSource/MozUI/issues/2)
+To contribute in UICAP by giving your ideas please go through [here](https://github.com/MozillaKNITOpenSource/MozUI/issues/2)
 
 
 # Authors
