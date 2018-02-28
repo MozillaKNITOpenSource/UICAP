@@ -14,7 +14,7 @@ There are many more but we can list all here.
 
 We've written a short manual explaining how you can adapt it for your own needs.
 
-* [How to use UICAP?](https://github.com/MozillaKNITOpenSource/MozUI/wiki)
+* [How to use UICAP?](https://github.com/MozillaKNITOpenSource/UICAP/wiki)
 
 ***
 
@@ -41,7 +41,7 @@ We're working on it.
 
 ### Other ways
 
-You can always download the latest minimized version from github, clone the repository or download it. Or clone it: `git clone https://github.com/MozillaKNITOpenSource/MozUI.git`
+You can always download the latest minimized version from github, clone the repository or download it. Or clone it: `git clone https://github.com/MozillaKNITOpenSource/UICAP.git
 
 
 ## Example usage
@@ -109,7 +109,7 @@ You are encouraged to contribute to UICAP. To write a new plugin, just copy one 
 
 ###  Give your Ideas for UICAP
 
-To contribute in UICAP by giving your ideas please go through [here](https://github.com/MozillaKNITOpenSource/MozUI/issues/2)
+To contribute in UICAP by giving your ideas please go through [here](https://fb.com/learneradarsh)
 
 
 # Authors
