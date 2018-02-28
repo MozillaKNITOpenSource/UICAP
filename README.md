@@ -7,6 +7,7 @@
 ***
 
 #### What is UICAP?
+![alt text](https://github.com/MozillaKNITOpenSource/UICAP/blob/master/web/img/Logomakr_8ERS1L.png)
 
 **UICAP** solves problem of many users who have not better experience of web page surfing on Firefox and other browsers.
 Basically it's an **UI framework** which will help developers to make a webpage which is browser independent and provides best user experience to all users.It'll contain some other advance components which is not provided in other amazing UI frameworks like **Twitter Bootstrap**, **Flat UI**, and **Ionic**.
